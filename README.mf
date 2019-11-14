@@ -1,0 +1,72 @@
+Helps od Course
+
+Files 
+
+- Create file
+  echo "test" >test.txt
+
+- List file
+  ls test.txt
+
+- Touch file
+  touch test.txt
+
+- Append text in file
+  echo "more test">>text.txt
+
+- Delete file
+  rm test.txt
+
+- Read file
+  cat test.txt  
+  head -n 10 test.txt
+  tail -n 10 test.txt
+  less test.txt
+
+Directory
+
+- Create directory
+  mkdir test
+
+- Access directory
+  cd test
+
+- List directory
+  ls test
+  ls -ls test
+ 
+- Delete directory
+  rmdir test (if empty)
+  rm -r test (if not empty)
+  rm -rf test (force)
+
+Zip and Unzip
+
+- Zip file
+  zip -czf test.zip
+  tar -czf test.tar.gz
+  tar -cjf test.tar.bz2
+
+- Unzip file
+ unzip -xzf test.zip
+ tar -xzf test.tar.gz
+ tar -xzf test.tar.bz2
+
+- List conten zip file
+  unzip -l test.zip
+  
+
+- Date format
+  date "+%d/%m/%y" - 13/11/19
+  
+- Vim
+  insert char : i or a
+  delete char: x or number_char and x
+  delete line: d
+  save: :w  
+  navegate in file :[G, line one ] [G number_line][gg , final line]
+  quit: :q
+  quit ignore save: :q!
+  find: /string [n: next,N: previous
+  copy : number_linesyy or yy
+  paste: number_linesp or p 
