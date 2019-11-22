@@ -45,6 +45,7 @@ Zip and Unzip
 - Zip file
   zip -czf test.zip
   tar -czf test.tar.gz
+  tar -czf work.tar.gz workspace/  
   tar -cjf test.tar.bz2
 
 - Unzip file
@@ -54,6 +55,7 @@ Zip and Unzip
 
 - List conten zip file
   unzip -l test.zip
+  tar -tvf test.tar.gz
   
 
 - Date format
