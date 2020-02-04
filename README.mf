@@ -34,6 +34,7 @@ Directory
 - List directory
   ls test
   ls -ls test
+  du -h
  
 - Delete directory
   rmdir test (if empty)
